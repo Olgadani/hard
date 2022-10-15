@@ -62,7 +62,19 @@ public class Main {
         } else {
             System.out.println("Максимальный платеж при ЗП " + salary1 + " равен " + maxPay + " рублей. Платеж по кредиту " + base + " рублей. Отказано");
         }
-
+        System.out.println("Task ping-pong");
+        int x = 31;
+        for (int i = 1; i < x; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("ping pong");
+            } else if (i % 5 == 0) {
+                System.out.println("pong");
+            } else if (i % 3 == 0) {
+                System.out.println("ping");
+            } else {
+                System.out.println("");
+            }
+        }
     }
 }
 
